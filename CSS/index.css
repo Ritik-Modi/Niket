@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  display: flex;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.hero h2 {
+  position: absolute;
+  bottom: -10px;
+  color: white;
+  font-size: 54px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.meet-niket,
+.about-us,
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+.content_right {
+  max-width: 1000px;
+}
+.content p {
+  font-size: 28px;
+}
+
+.endimg {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  align-items: center;
+  gap: 300px;
+  margin-top: 50px;
+}
